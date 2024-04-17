@@ -72,11 +72,11 @@ console.log("\nSearch Results for Adidas:");
 console.table(searchShoe("Adidas"));
 
 // Display the shoe with the lowest value per item
-console.log(`\nThe shoe with the lowest value per item is ${findLowestValueShoe().name} with a value per item of $${findLowestValueShoe().valuePerItem}`);
+console.log(`\nThe shoe with the lowest value per item is ${findLowestValueShoe().name} with a value per item of $${findLowestValueShoe().valuePerItem}.`);
 console.table([findLowestValueShoe()]);
 
 // Display the shoe with the highest value per item
-console.log(`\nThe shoe with the highest value per item is ${findHighestValueShoe().name} with a value per item of $${findHighestValueShoe().valuePerItem}`);
+console.log(`\nThe shoe with the highest value per item is ${findHighestValueShoe().name} with a value per item of $${findHighestValueShoe().valuePerItem}.`);
 console.table([findHighestValueShoe()]);
 
 // Edit shoe inventory with new data
